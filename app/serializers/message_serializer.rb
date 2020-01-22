@@ -1,5 +1,5 @@
 class MessageSerializer
   include FastJsonapi::ObjectSerializer
   attributes :text
-  belongs_to :user
+  belongs_to :session
 end

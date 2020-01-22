@@ -17,7 +17,8 @@ gem 'redis', '~> 4.0'
 gem 'bcrypt', '~> 3.1.7'
 
 # Use Fast JSON for serializable JSON strings
-gem 'fast_jsonapi'
+# gem 'fast_jsonapi'
+gem 'active_model_serializers'
 
 gem 'faker'
 
